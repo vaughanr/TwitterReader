@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterReader", "TwitterReader\TwitterReader.csproj", "{FA62455A-D2CD-4088-B287-3497B5A7592C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterReader", "TwitterReader\TwitterReader.csproj", "{FA62455A-D2CD-4088-B287-3497B5A7592C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentClassifier", "SentimentClassifier\SentimentClassifier.csproj", "{96F8432C-C378-4517-AF8F-082E72332D60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentClassifier.Runner", "SentimentClassifier.Runner\SentimentClassifier.Runner.csproj", "{58C052B0-DD15-4342-8247-AF405D9477B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FA62455A-D2CD-4088-B287-3497B5A7592C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA62455A-D2CD-4088-B287-3497B5A7592C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA62455A-D2CD-4088-B287-3497B5A7592C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F8432C-C378-4517-AF8F-082E72332D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F8432C-C378-4517-AF8F-082E72332D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F8432C-C378-4517-AF8F-082E72332D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F8432C-C378-4517-AF8F-082E72332D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C052B0-DD15-4342-8247-AF405D9477B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C052B0-DD15-4342-8247-AF405D9477B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C052B0-DD15-4342-8247-AF405D9477B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C052B0-DD15-4342-8247-AF405D9477B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

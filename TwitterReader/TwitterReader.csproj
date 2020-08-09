@@ -38,6 +38,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SentimentAnalyzer\SentimentClassifier.csproj" />
+    <ProjectReference Include="..\SentimentClassifier\SentimentClassifier.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
