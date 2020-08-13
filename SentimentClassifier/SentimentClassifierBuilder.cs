@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.IO;
+using System.Reflection;
 using System.Threading.Tasks;
 using static Microsoft.ML.DataOperationsCatalog;
 
@@ -12,7 +13,7 @@ namespace SentimentAnalyzer
 {
     public class SentimentClassifierBuilder
     {
-        private readonly string _dataPath = Path.Combine(Environment.CurrentDirectory, "Data", "Train.csv");
+        private readonly string _dataPath = Path.Combine(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location), "Data", "Train.csv");
         private readonly MLContext _mlContext;
         private readonly TrainTestData _splitDataView;
         public SentimentClassifierBuilder()

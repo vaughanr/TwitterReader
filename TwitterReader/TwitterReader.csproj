@@ -40,6 +40,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SentimentAnalyzer\SentimentClassifier.csproj" />
     <ProjectReference Include="..\SentimentClassifier\SentimentClassifier.csproj" />
+    <ProjectReference Include="..\Twitter\Twitter.csproj" />
   </ItemGroup>
 
   <ItemGroup>

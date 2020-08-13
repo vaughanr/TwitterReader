@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentClassifier", "Sent
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentClassifier.Runner", "SentimentClassifier.Runner\SentimentClassifier.Runner.csproj", "{58C052B0-DD15-4342-8247-AF405D9477B4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetMiner", "TweetMiner\TweetMiner.csproj", "{BDEEDEE2-DD04-45E2-9761-302BE9156CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter", "Twitter\Twitter.csproj", "{D1DD073E-612E-417F-84D4-D5AA29AD3B92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{58C052B0-DD15-4342-8247-AF405D9477B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58C052B0-DD15-4342-8247-AF405D9477B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58C052B0-DD15-4342-8247-AF405D9477B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDEEDEE2-DD04-45E2-9761-302BE9156CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDEEDEE2-DD04-45E2-9761-302BE9156CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDEEDEE2-DD04-45E2-9761-302BE9156CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDEEDEE2-DD04-45E2-9761-302BE9156CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DD073E-612E-417F-84D4-D5AA29AD3B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DD073E-612E-417F-84D4-D5AA29AD3B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DD073E-612E-417F-84D4-D5AA29AD3B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DD073E-612E-417F-84D4-D5AA29AD3B92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
