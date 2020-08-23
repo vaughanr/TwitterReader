@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentClassifier.Runner"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetMiner", "TweetMiner\TweetMiner.csproj", "{BDEEDEE2-DD04-45E2-9761-302BE9156CC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter", "Twitter\Twitter.csproj", "{D1DD073E-612E-417F-84D4-D5AA29AD3B92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twitter", "Twitter\Twitter.csproj", "{D1DD073E-612E-417F-84D4-D5AA29AD3B92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockPriceMiner", "StockPriceMiner\StockPriceMiner.csproj", "{34F450C3-CF05-4D94-86E8-96C3B7625EF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D1DD073E-612E-417F-84D4-D5AA29AD3B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1DD073E-612E-417F-84D4-D5AA29AD3B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1DD073E-612E-417F-84D4-D5AA29AD3B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F450C3-CF05-4D94-86E8-96C3B7625EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F450C3-CF05-4D94-86E8-96C3B7625EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F450C3-CF05-4D94-86E8-96C3B7625EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F450C3-CF05-4D94-86E8-96C3B7625EF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

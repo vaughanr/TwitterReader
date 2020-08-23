@@ -46,8 +46,6 @@ namespace TweetMiner
                 "google",
                 "amazon",
                 "facebook",
-                "samsung",
-                "huawei",
                 "ibm",
                 "dell",
                 "sony",
@@ -67,13 +65,13 @@ namespace TweetMiner
 
                     var dates = new DateTime[]
                     {
-                    DateTime.Today,
-                    DateTime.Today.AddDays(-1),
-                    DateTime.Today.AddDays(-2),
-                    DateTime.Today.AddDays(-3),
-                    DateTime.Today.AddDays(-4),
-                    DateTime.Today.AddDays(-5),
                     DateTime.Today.AddDays(-6),
+                    DateTime.Today.AddDays(-5),
+                    DateTime.Today.AddDays(-4),
+                    DateTime.Today.AddDays(-3),
+                    DateTime.Today.AddDays(-2),
+                    DateTime.Today.AddDays(-1),
+                    DateTime.Today,
                     };
 
                     foreach (var date in dates)
@@ -108,7 +106,7 @@ namespace TweetMiner
 
                         foreach (var dailySentiment in dailySentiments)
                         {
-                            string text = JsonConvert.SerializeObject(dailySentiment);
+                            string text = JsonConvert.SerializeObject(dailySentiment.Value);
                             string fileName = GetFileName(line, dailySentiment.Key);
                             File.WriteAllText(fileName, text);
                             Console.WriteLine($"Saved {fileName}");
@@ -117,7 +115,7 @@ namespace TweetMiner
 
                     string GetFileName(string search, DateTime date)
                     {
-                        return $"{search}_{date:yyyyMMdd}.json";
+                        return $"data/{search}_{date:yyyyMMdd}.json";
                     }
                 }
                 
